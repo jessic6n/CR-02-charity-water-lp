@@ -3,45 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
+    <title>charity: water — Give the Gift of Clean Water</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
+
+    <!-- HERO SECTION -->
     <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
-
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
-
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
+        <nav class="navbar">
+            <div class="logo">charity: water</div>
+            <a href="#donate" class="nav-cta">Donate Now</a>
+        </nav>
+        <div class="hero-content">
+            <h1>Clean Water <br>Changes Everything</h1>
+            <p>771 million people lack access to clean water. You can help change that — starting today.</p>
+            <a href="#donate" class="btn-primary">Give Clean Water</a>
         </div>
     </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
+    <!-- STORY SECTION -->
+    <section class="story">
+        <div class="container">
+            <h2>The Crisis Is Real</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-number">771M</span>
+                    <span class="stat-label">people without clean water</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">6hrs</span>
+                    <span class="stat-label">women walk daily to collect water</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">1000+</span>
+                    <span class="stat-label">children die daily from water disease</span>
+                </div>
+            </div>
+            <p class="story-text">When a community gets clean water, everything changes. Kids go back to school. Women start businesses. Families stay healthy. <strong>One well. Endless possibilities.</strong></p>
+        </div>
     </section>
+
+    <!-- IMPACT SECTION -->
+    <section class="impact">
+        <div class="container">
+            <h2>Your Dollar Goes Further Here</h2>
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <div class="impact-icon">💧</div>
+                    <h3>100% of donations</h3>
+                    <p>go directly to water projects. We use a separate fund for operations.</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">📍</div>
+                    <h3>Track your impact</h3>
+                    <p>See exactly which project you funded, with GPS coordinates and photos.</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">🌍</div>
+                    <h3>17,000+ projects</h3>
+                    <p>funded across 29 countries, reaching over 17 million people.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="donate" id="donate">
+        <div class="container">
+            <h2>Be the Reason Someone Has Clean Water</h2>
+            <p>It only takes $40 to give one person clean water for life.</p>
+            <div class="donate-options">
+                <button class="donate-amount">$25</button>
+                <button class="donate-amount active">$40</button>
+                <button class="donate-amount">$100</button>
+                <button class="donate-amount">$250</button>
+            </div>
+            <a href="https://www.charitywater.org/donate" class="btn-primary">Donate Now</a>
+            <p class="donate-note">Secure donation • 100% goes to water projects</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 charity: water — <a href="https://www.charitywater.org">charitywater.org</a></p>
+    </footer>
+
 </body>
 </html>
